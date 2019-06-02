@@ -215,3 +215,5 @@ set_source_files_properties(libraries/AzureIoT/src/az_iot/iothub_client/src/ioth
     PROPERTIES COMPILE_FLAGS
     -Wno-maybe-uninitialized
 )
+
+add_compile_definitions(ARDUINO_ARCH_ESP32=1 ESP32=1 ARDUINO=10800)
